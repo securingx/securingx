@@ -19,12 +19,8 @@ const ServiceCard = ({ title, description, icon, delay }) => {
         </div>
         <h3 className="text-xl font-bold mb-3">{title}</h3>
         <p className="text-gray-400 mb-6">{description}</p>
-        <Button variant="ghost" className="group text-blue-400 hover:text-blue-300 p-0">
-          Saber más{" "}
-          <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-        </Button>
       </div>
-      <div className="h-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+      <div className="h-1 bg-gradient-to-r from-blue-500 to-red-600"></div>
     </motion.div>
   );
 };

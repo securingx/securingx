@@ -40,7 +40,7 @@ const Header = () => {
             className="flex items-center"
           >
             <span className="text-2xl font-bold text-white">
-              Securing<span className="text-blue-500">x</span>
+              <span className="text-green-500">S</span>ecurIng<span className="text-red">X</span>
             </span>
           </motion.div>
 
@@ -63,9 +63,7 @@ const Header = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.4 }}
             >
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Contáctanos
-              </Button>
+              
             </motion.div>
           </nav>
 
@@ -108,9 +106,7 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <Button className="bg-blue-600 hover:bg-blue-700 w-full">
-                Contáctanos
-              </Button>
+
             </nav>
           </div>
         </motion.div>
